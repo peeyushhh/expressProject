@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>links}}
+</head>
+<body>
+  {{>header}}
+   <!-- main header -->
+   <div class="container-fluid main_header" >
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto ">
+            <div class="row">
+                <!--left side div--->
+                <div class="col-md-6 col-12 main_header_right " data-aos="zoom-out-up">
+                    <figure>
+                        <img src="images/favicon.png" alt="pic" class="img-fluid">
+                    </figure>
+                </div>
+                <!--right side div--->
+                <div class="col-md-6 col-12 main_header_left" data-aos="flip-down">
+                    <p>Welcome To My World</p>
+                    <h1>I'm A  <span>Front-End </span>Developer And A <span>Freelancer.</span></h1>
+                    <a href="#"><button class="">ABOUT ME</button></a>        
+                </div>
+                </div>
+            </div>
+        </div>
+     </div>
+   </div>
+{{>footer}}
+<script>
+AOS.init();
+</script>
+</body>
+</html>
